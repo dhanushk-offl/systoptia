@@ -7,7 +7,7 @@ setup(
     install_requires=["psutil", "GPUtil", "rich"],
     entry_points={
         "console_scripts": [
-            "systoptia=systoptia.main"
+            "systoptia=systoptia.main:main"
         ]
     },
     author='Dhanush Kandhan',
