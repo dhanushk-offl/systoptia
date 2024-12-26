@@ -12,8 +12,8 @@ setup(
         'rich>=10.0.0'
     ],
     entry_points={
-        'console_scripts': [
-            'systoptia=main:main'  # Point directly to your main.py's main function
+        "console_scripts": [
+            "systoptia=cli.commands:run_cli"  # Point directly to your main.py's main function
         ],
     },
     author="Dhanush K",
