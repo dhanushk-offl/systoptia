@@ -13,7 +13,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "systoptia=cli.commands:run_cli"  # Point directly to your main.py's main function
+            "systoptia=.cli.commands:run_cli"  # Point directly to your main.py's main function
         ],
     },
     author="Dhanush K",
