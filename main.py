@@ -1,5 +1,5 @@
 # systoptia/main.py
-from cli.commands import run_cli 
+from cli.init import run_cli 
 
 def main():
     run_cli()
