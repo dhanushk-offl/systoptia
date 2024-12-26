@@ -1,5 +1,8 @@
-# sysoptai/main.py
-from cli.commands import run_cli
+# systoptia/main.py
+from cli.commands import run_cli 
+
+def main():
+    run_cli()
 
 if __name__ == "__main__":
-    run_cli()
+    main()
